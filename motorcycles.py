@@ -35,8 +35,16 @@ print(fruits)
 
 #we can remove the items from a list at last using pop method or by indexing
 
-li_1 = []
+li_1 = ['hello','world','mewo','cat']
 
+li_1.pop(1)
 
+print(li_1)
+
+#removing item by value
+
+li_1.remove('mewo')
+
+print(li_1)
 
 
